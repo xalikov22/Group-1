@@ -1,0 +1,91 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 56px;
+        text-align: left;
+        max-width: 490px;
+        padding-bottom: 22px;
+        color: #333461;
+    }
+    &__text {
+        width: 500px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: #4A556C;
+        max-width: 550px;
+        padding-bottom: 22px;
+        &__up {
+            width: 480px;
+            line-height: 21px;
+            font-size: 17px;
+            font-weight: 400;
+            color: #4A556C;
+            max-width: 550px;
+        }
+    }
+    &__btn {
+        max-width: 250px;
+        top: 616px;
+        left: 152px;
+        padding: 9px 16px 9px 16px;
+        border: none;
+        border-radius: 10px;
+        gap: 10px;
+        line-height: 24px;
+        color: #fff;
+        background-color: #20AD96;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 22px;
+    }
+    &__btn:hover {
+        background-color: #fff;
+        color: #20AD96;
+        border: 1px solid #20AD96;
+    }
+    &__right {
+        position: relative;
+    }
+    &__img {
+        width: 490px;
+        position: relative;
+        top: 40px;
+    }
+    &__title__left {
+        font-size: 55px;
+        word-spacing: 20px;
+        font-weight: 800;
+        line-height: 56px;
+        width: 250px;
+        height: 518px;
+        position: absolute;
+        top: 80px;
+        margin-left: 38px;
+        color: white;
+    }
+    &__box {
+        width: 490px;
+        height: 80px;
+        background-color: black;
+        top: 550px;
+        position: absolute;
+    }
+    .card__right {
+        position: relative;
+    }
+    .radius {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        background-color: #20AD96;
+        text-align: center;
+    }
+}
