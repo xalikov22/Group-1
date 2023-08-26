@@ -104,3 +104,29 @@
     height: 48px;
     border-radius: 50%;
 }
+
+@media(max-width:768px) {
+    .section__two__flexbox__imgs {
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+    }
+}
+
+@media(max-width:375px) {
+    .section__two__flexbox__imgs {
+        display: none;
+    }
+    .section__two__text__paragrf1,
+    .section__two__text__paragrf2,
+    .section__two__text__title {
+        text-align: center;
+    }
+    .section__two__flexbox__item__items {
+        height: 169px;
+        text-align: center;
+    }
+    .section__two__flexbox__item {
+        row-gap: 40px;
+    }
+}
